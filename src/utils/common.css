@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    max-width: 750px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    background-color: #eeeeee;
+}
+
+input,
+select,
+button {
+    outline: none;
+    vertical-align: middle;
+    -webkit-appearance: none;
+}
+
+button {
+    border: 0;
+    background-clip: padding-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: baseline;
+}
+
+a,
+a:link,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+textarea,
+input {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+span,
+p,
+div {
+    word-wrap: break-word;
+}
+
+table,
+td,
+tr,
+th {
+    border-collapse: collapse;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 文字 */
+.Text_cont {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Text_conts {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.leftText{
+    text-align: left;
+}
+.centerText{
+    text-align: center;
+}
+.rightText{
+    text-align: right;
+}
+
+
+
+/* 容器 */
+.container95 {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.container9 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.container85 {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+.container8 {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.container75 {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+.container7 {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.container65 {
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+}
+.container6 {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.container55 {
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
+}
+.container5 {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
